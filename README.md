@@ -45,6 +45,20 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
+## Base de datos
+
+Utilizar una base de datos mysql, con los siguientes datos
+
+```
+host: '127.0.0.1',
+port: 3306,
+username: 'root',
+password: '1234',
+database: 'dam_project',
+```
+
+O cambiar la configuración en el archivo app.module.ts
+
 ## Test
 
 ```bash
@@ -71,4 +85,4 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
 Nest is [MIT licensed](LICENSE).
-"# dam-project-api" 
+"# dam-project-api"
